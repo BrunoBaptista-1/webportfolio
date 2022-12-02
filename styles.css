@@ -462,9 +462,6 @@ footer {
         left: 4rem;
     }
 
-}
-
-@media(max-width: 800px) {
     .bottomSection {
         flex-wrap: wrap-reverse;
     }
@@ -478,4 +475,5 @@ footer {
         width: 20rem;
         height: 20rem;
     }
+
 }
