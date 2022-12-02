@@ -404,7 +404,6 @@ footer {
     width: 18rem;
     height: 18rem;
     border-radius: 50%;
-    align-items: center;
 }
 
 .scrollbar {
@@ -468,5 +467,15 @@ footer {
 @media(max-width: 800px) {
     .bottomSection {
         flex-wrap: wrap-reverse;
+    }
+
+    .carousel {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .carousel-image {
+        width: 20rem;
+        height: 20rem;
     }
 }
