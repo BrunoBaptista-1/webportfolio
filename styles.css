@@ -213,6 +213,7 @@ body {
     border-radius: 50%;
     color: white;
     background-color: #659cc8;
+    border-color: #e3e3e3;
 }
 
 .send:hover {
