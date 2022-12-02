@@ -458,13 +458,15 @@ footer {
         margin: 10% 0 0 0;
     }
 
-    .bottomSection {
-        flex-wrap: wrap-reverse;
-    }
-
     .backButton {
         top: 4rem;
         left: 4rem;
     }
 
+}
+
+@media(max-width: 800px) {
+    .bottomSection {
+        flex-wrap: wrap-reverse;
+    }
 }
