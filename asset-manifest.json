@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.3ca6ca24.js",
-    "index.html": "/index.html",
-    "main.3ca6ca24.js.map": "/static/js/main.3ca6ca24.js.map"
+    "main.js": "/webportfolio/static/js/main.3ca6ca24.js",
+    "index.html": "/webportfolio/index.html",
+    "main.3ca6ca24.js.map": "/webportfolio/static/js/main.3ca6ca24.js.map"
   },
   "entrypoints": [
     "static/js/main.3ca6ca24.js"
