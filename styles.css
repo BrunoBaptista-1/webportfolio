@@ -42,9 +42,9 @@ body {
     color: #efdab9;
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
+    min-height: 100vh;
     scroll-behavior: smooth;
     overflow-x: hidden;
-    min-height: 100vh;
 }
 
 .bottomSection {
