@@ -42,9 +42,7 @@ body {
     color: #efdab9;
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
-    height: 100vh;
     scroll-behavior: smooth;
-    /* overflow-y: auto; */
     overflow-x: hidden;
 }
 
