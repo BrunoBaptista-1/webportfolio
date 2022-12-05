@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+For more information about the source code behind the webportfolio development, see:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://github.com/BrunoBaptista-1/webportfolio-code
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+This sample portfolio is built using various technologies, such as React, Javascript, HTML and CSS, which is deployed and showcased under the GitHub pages.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The main objective of this webpage was to demonstrate a sample of my set of skills, regarding Front-end and Back-end development. It features three views: the homescreen, a personal webpage, and a simple chat user interface capable of speaking to a simple virtual assistant, which purpose serves to tell the weather of a city (for example purposes).    
+Apart from the icons displayed in these views (source: Material UI - https://mui.com/), all effects and business-logic was implemented using vanilla JavaScript and CSS, without recurring to external libraries.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Front-end:
+- This webpage is hosted in Github Pages.
 
-### `npm run build`
+- Technologies implemented - React, JavaScript ES6, CSS, HTML. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Regarding page viewing/routing, its implementation was built using React Router (source: https://reactrouter.com/en/main). 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- GitHub Pages lacks support for this feature, failing to fetch resources when refreshing the page (source: https://create-react-app.dev/docs/deployment/#notes-on-client-side-routing ) Note: Inside my local environment, everything works as intented, i.e. I'm able to successfully refresh and render the corresponding pages without errors. In order to navigate, use the "Back Arrow" icon.
+ 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Back-end:
+- The virtual assistant is build under Rasa Open Source, which is hosted and on my local machine.
+- In order to respond to the user, via API calls performed on message sent through the chat interface, the virtual assistant was made accessible through ngrok (source: https://ngrok.com/) by performing a reverse proxy, allowing the bot to respond to the user's utterances.
+- When the virtual assistant is prompted about the weather of a city, an API call is performed to OpenWeatherMap (source: https://openweathermap.org/), in order to respond accordingly.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Note: The virtual assistant followed a conversation driven development, which allowed the bot to learn from past conversations when these were reviewed and corrected. However, this is no longer supported as of earlier this year.
