@@ -338,6 +338,10 @@ footer {
     background-position: 25% 60%;
 } */
 
+/* .homeMenu[index="2"]~.pattern-image {
+    background-position: 25% 60%;
+} */
+
 .homeMenu:hover~.pattern-image {
     opacity: 15%;
 }
