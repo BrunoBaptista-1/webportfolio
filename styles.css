@@ -384,7 +384,7 @@ footer {
 }
 
 .pattern-image {
-    background-image: url("./images/image.JPG");
+    background-image: url("./images/image.webp");
     height: 92vh;
     width: 100vw;
     z-index: 0;
