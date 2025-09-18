@@ -1,3 +1,5 @@
+In order to access the website itself: https://brunobaptista-1.github.io/webportfolio/
+
 For more information about the source code behind the webportfolio development, see:
 
 https://github.com/BrunoBaptista-1/webportfolio-code
